@@ -1,0 +1,45 @@
+.header {
+  height:55px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin-bottom:20px;
+}
+.left-section {
+  background-color: aquamarine;
+ 
+  display:flex; 
+  /* due to flex box items in the left 
+  section will align vertically */
+  align-items: center;
+}
+.hamburger-menu {
+  height:24px;
+  margin-left:24px;
+  margin-right:24px;
+
+}
+.youtube-logo {
+  height:20px;
+}
+.search-bar {
+  height:36px;
+  width:500px ;
+  border-radius:500px;
+  margin-top:5px;
+  border-color:rgb(204,204,204);
+  border-style:solid;
+  border-width: 1px;
+  font-size: 16px;
+}
+.middle-section {
+ background-color: bisque; 
+  flex:1;
+  margin-left:70px;
+  margin-right:35px;
+  max-width: 500px;
+}
+.right-section {
+  background-color: aqua;
+  width:200px;
+}
